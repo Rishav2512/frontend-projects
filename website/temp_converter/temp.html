@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+    <link rel="stylesheet" href="temp.css" />
+  </head>
+
+  <body>
+    <form>
+      <h1>tenperature converter</h1>
+      <input type="number" id="textbox" value="0" /><br />
+      <input type="radio" name="unit" id="toFarenheit" />
+      <label for="toFarenheit"> celcius to farenheit</label><br />
+      <input type="radio" name="unit" id="toCelcius" />
+      <label for="toCelcius"> farenheit to celcius</label><br /><br />
+      <button type="button" onclick="convert()">convert</button>
+      <p id="result"></p>
+    </form>
+    <script src="temp.js"></script>
+    <!--end m hmesha-->
+  </body>
+</html>
